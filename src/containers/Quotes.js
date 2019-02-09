@@ -33,7 +33,7 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = dispatch => {
-  
+
 }
 
 //add arguments to connect as needed
