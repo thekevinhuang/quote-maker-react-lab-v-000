@@ -15,11 +15,7 @@ class Quotes extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              {/*
-                TODO:
-
-                Render Quotes With QuoteCard component and pass down callback props for removing, upvoting and downvoting quotes
-               */}
+              {this.props.quotes.map((quote, index)=> <QuoteCard quote={quote})}
             </div>
           </div>
         </div>
@@ -33,7 +29,9 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = dispatch => {
-
+  return {
+    
+  }
 }
 
 //add arguments to connect as needed
