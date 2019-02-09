@@ -1,5 +1,4 @@
 import React from 'react';
-import {connect} from 'react-redux'
 
 const QuoteCard = (props) =>
   <div>
@@ -36,4 +35,4 @@ const QuoteCard = (props) =>
     </div>
   </div>;
 
-export default connect()(QuoteCard);
+export default QuoteCard;
