@@ -19,6 +19,7 @@ class QuoteForm extends Component {
 
   handleOnSubmit = event => {
     event.preventDefault()
+    this.props.addQuote(this.state)
     // Handle Form Submit event default
     // Create quote object from state
     // Pass quote object to action creator
